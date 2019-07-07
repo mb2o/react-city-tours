@@ -9,7 +9,7 @@ export default class TourList extends Component {
   };
 
   removeTour = id => {
-    console.log(id);
+    this.setState({ tours: this.state.tours.filter(tour => tour.id !== id) });
   };
 
   render() {
