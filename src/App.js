@@ -9,7 +9,6 @@ function App() {
   return (
     <Fragment>
       <Navbar />
-      <h1>Our current app</h1>
       <TourList />
     </Fragment>
   );
